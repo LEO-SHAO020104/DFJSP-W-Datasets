@@ -22,11 +22,10 @@ DFJSP-W-Datasets/
 │   ├── 20x10x5/
 │   ├── 30x10x8/
 │   └── 40x10x8/
-
----
+```
 
 ## Dataset Scale Notation
-Each instance scale is denoted as:n × m × w
+Each instance scale is denoted as: n × m × w
 
 ## Usage
 The datasets are intended for offline learning and scheduling research.
