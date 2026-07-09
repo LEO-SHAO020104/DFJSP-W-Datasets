@@ -85,18 +85,3 @@ python DataGenerator.py \
 ```
 
 The generator writes one `.pkl` file per instance and an optional JSON index file for batch loading.
-
-## Citation
-
-If you use this dataset in your research, please cite the corresponding paper:
-
-```bibtex
-@article{dfjspw_multi_attention_offline_rl,
-  title  = {Multi-Attention Offline Reinforcement Learning for Dual-Resource Job Shop Scheduling},
-  author = {To be updated},
-  journal = {To be updated},
-  year   = {To be updated}
-}
-```
-
-The paper link and formal citation will be updated after publication.
