@@ -2,7 +2,7 @@
 
 This repository provides training and validation datasets for the paper:
 
-**Multi-Attention Offline Reinforcement Learning for Dual-Resource Job Shop Scheduling**
+**Offline Reinforcement Learning with Heterogeneous Graph Representation and Attention Mechanisms for Human-Machine Collaborative Flexible Job Shop Scheduling**
 
 ## Overview
 
