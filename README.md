@@ -1,6 +1,6 @@
 # DFJSP-W Datasets
 
-This repository provides training and validation datasets for the paper:
+This repository provides training and test datasets for the paper:
 
 **Offline Reinforcement Learning with Heterogeneous Graph Representation and Attention Mechanisms for Human-Machine Collaborative Flexible Job Shop Scheduling**
 
@@ -18,7 +18,7 @@ DFJSP-W-Datasets/
 |   |-- 10x5x3+mix/
 |   |-- 15x10x5+mix/
 |   `-- 20x10x5+mix/
-`-- valid/
+`-- test/
     |-- 10x5x3+mix/
     |-- 15x10x5+mix/
     |-- 20x10x5+mix/
@@ -66,7 +66,7 @@ pip install numpy
 from DataGenerator import load_single_instance
 
 job_lengths, op_pt, op_wt, instance_info = load_single_instance(
-    "valid/50x10x8+mix/50x10x8_001.pkl"
+    "test/50x10x8+mix/50x10x8_001.pkl"
 )
 ```
 
@@ -80,7 +80,7 @@ python DataGenerator.py \
   --n_machines 10 \
   --n_workers 8 \
   --num_instances 100 \
-  --output_dir valid/50x10x8+mix \
+  --output_dir test/50x10x8+mix \
   --dataset_name 50x10x8
 ```
 

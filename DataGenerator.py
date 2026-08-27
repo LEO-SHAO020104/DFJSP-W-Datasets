@@ -463,7 +463,7 @@ def main():
 
     # Dataset parameters.
     parser.add_argument('--num_instances', type=int, default=100, help='Number of instances to generate')
-    parser.add_argument('--output_dir', type=str, default='valid/50x10x8+mix', help='Output directory')
+    parser.add_argument('--output_dir', type=str, default='test/50x10x8+mix', help='Output directory')
     parser.add_argument('--dataset_name', type=str, default='50x10x8', help='Dataset name')
 
     args = parser.parse_args()
